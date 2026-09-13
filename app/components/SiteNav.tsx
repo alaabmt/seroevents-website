@@ -13,25 +13,33 @@ const menuItems = [
 
 export function SiteNav() {
   return (
-    <header className="subHeader">
-      <div className="navLeft">
-        <details className="navMenu">
-          <summary aria-label="Open website menu"><span className="menuIcon" aria-hidden="true">☰</span><span>Menu</span></summary>
-          <nav className="navMenuPanel" aria-label="All pages">
-            {menuItems.map(([label, href]) => <a href={href} key={href}>{label}</a>)}
-          </nav>
-        </details>
-        <a className="subBrand" href="/seroevents-website/">Seroevents</a>
-      </div>
-      <nav className="subNav" aria-label="Primary">
-        <a href="/seroevents-website/about/">About</a>
-        <a href="/seroevents-website/services/">Services</a>
-        <a href="/seroevents-website/scientific-areas/">Scientific Areas</a>
-        <a href="/seroevents-website/partners/">Partnerships</a>
-        <a href="/seroevents-website/events/">Events</a>
-      </nav>
-      <a className="subCta" href="/seroevents-website/events/upcoming/">Upcoming Events</a>
-    </header>
+    <>
+      <header className="subHeader">
+        <div className="navLeft">
+          <details className="navMenu">
+            <summary aria-label="Open website menu"><span className="menuIcon" aria-hidden="true">☰</span><span>Menu</span></summary>
+            <nav className="navMenuPanel" aria-label="All pages">
+              {menuItems.map(([label, href]) => <a href={href} key={href}>{label}</a>)}
+            </nav>
+          </details>
+          <a className="subBrand" href="/seroevents-website/">Seroevents</a>
+        </div>
+        <nav className="subNav" aria-label="Primary">
+          <a href="/seroevents-website/about/">About</a>
+          <a href="/seroevents-website/services/">Services</a>
+          <a href="/seroevents-website/scientific-areas/">Scientific Areas</a>
+          <a href="/seroevents-website/partners/">Partnerships</a>
+          <a href="/seroevents-website/events/">Events</a>
+        </nav>
+        <a className="subCta" href="/seroevents-website/events/upcoming/">Upcoming Events</a>
+      </header>
+      <aside className="navigationPane" aria-label="Website navigation">
+        <p className="navigationPaneTitle">Navigate</p>
+        <nav>
+          {menuItems.map(([label, href]) => <a href={href} key={href}>{label}</a>)}
+        </nav>
+      </aside>
+    </>
   );
 }
 
