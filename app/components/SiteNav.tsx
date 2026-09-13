@@ -9,7 +9,6 @@ const menuItems = [
   ['Past Events', '/seroevents-website/events/past/'],
   ['Partnerships', '/seroevents-website/partners/'],
   ['Gallery', '/seroevents-website/gallery/'],
-  ['Contact', '/seroevents-website/contact/'],
 ];
 
 export function SiteNav() {
