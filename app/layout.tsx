@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import './site-pages.css';
 
 export const metadata: Metadata = {
   title: 'SeroEvents | Healthcare & Scientific Event Management',
