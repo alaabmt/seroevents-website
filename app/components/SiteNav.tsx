@@ -30,7 +30,6 @@ export function SiteNav() {
         <a href="/seroevents-website/scientific-areas/">Scientific Areas</a>
         <a href="/seroevents-website/partners/">Partnerships</a>
         <a href="/seroevents-website/events/">Events</a>
-        <a href="/seroevents-website/contact/">Contact</a>
       </nav>
       <a className="subCta" href="/seroevents-website/events/upcoming/">Upcoming Events</a>
     </header>
