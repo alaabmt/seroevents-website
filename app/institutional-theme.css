@@ -1,0 +1,252 @@
+:root {
+  --black: #101820;
+  --black-soft: #17232d;
+  --ink: #17212b;
+  --orange: #f47a20;
+  --orange-deep: #d95d0b;
+  --gold: #c9942e;
+  --cream: #f7f6f2;
+  --white: #ffffff;
+  --muted: #6f7b84;
+  --slate: #334654;
+  --slate-soft: #edf1f2;
+  --line-light: #dce2e4;
+  --line: rgba(255,255,255,.12);
+}
+
+body,
+.pageShell,
+.eventDetailPage {
+  background: var(--cream);
+  color: var(--ink);
+}
+
+/* Corporate navigation: dark, institutional and restrained */
+.siteHeader,
+.subHeader,
+.detailHeader {
+  background: rgba(16,24,32,.97);
+  border-bottom-color: rgba(255,255,255,.10);
+}
+
+.nav,
+.subNav,
+.detailBack { color: #d3d9dd; }
+
+.headerCta,
+.subCta {
+  border-color: rgba(244,122,32,.55);
+  color: #ffd5b8;
+}
+
+.headerCta:hover,
+.subCta:hover {
+  background: var(--orange);
+  color: #101820;
+}
+
+/* Keep the first impression premium, but shift from pure black to deep blue-grey */
+.hero,
+.pageHero,
+.eventHero {
+  background: #101820;
+}
+
+.heroLead,
+.pageHero p,
+.eventHeroLead { color: #c2cbd0; }
+
+.heroPanel,
+.eventFacts {
+  background: rgba(255,255,255,.045);
+  border-color: rgba(255,255,255,.15);
+}
+
+.moleculeGrid,
+.eventHeroPattern { opacity: .10; }
+
+.glowOne,
+.eventHero::before {
+  background: radial-gradient(circle, rgba(244,122,32,.14), rgba(244,122,32,0) 68%);
+}
+
+.glowTwo {
+  background: radial-gradient(circle, rgba(74,100,116,.16), rgba(74,100,116,0) 70%);
+}
+
+/* Make the content experience predominantly light and scientific */
+.section,
+.contentSection,
+.eventDetailSection,
+.whySection {
+  background: var(--cream);
+}
+
+.servicesSection,
+.contentSection.white,
+.facultySection {
+  background: var(--white);
+}
+
+.bodyCopy,
+.sectionHeadingRow p,
+.contentCard p,
+.detailBody,
+.programmeRow p,
+.whyItem p {
+  color: #5f6b73;
+}
+
+.pillRow span,
+.contentCard,
+.emptyState {
+  background: #fff;
+  border-color: var(--line-light);
+}
+
+.contentCard {
+  box-shadow: 0 8px 28px rgba(16,24,32,.035);
+}
+
+.contentCard.dark {
+  background: var(--slate);
+  border-color: var(--slate);
+  color: #fff;
+}
+
+.contentCard.dark p { color: #d5dde1; }
+
+/* Orange remains an accent, not a large surface */
+.eyebrow,
+.pageEyebrow,
+.sectionLabel,
+.serviceNumber,
+.whyItem span,
+.programmeRow time,
+.eventKicker,
+.detailSectionLabel,
+.highlightItem span {
+  color: var(--orange-deep);
+}
+
+.buttonPrimary,
+.pillLink.orange {
+  background: var(--orange);
+  color: #101820;
+}
+
+/* Homepage event portfolio becomes lighter and more institutional */
+.eventsSection {
+  background: var(--slate-soft);
+  color: var(--ink);
+}
+
+.eventsSection .sectionLabel.light { color: var(--orange-deep); }
+.eventsSection .lightText { color: #65727a !important; }
+
+.eventCard {
+  background: #fff;
+  color: var(--ink);
+  border-color: #d9e0e3;
+  box-shadow: 0 12px 34px rgba(16,24,32,.05);
+}
+
+.eventTopline {
+  color: #68757d;
+  border-bottom-color: #e2e7e9;
+}
+
+.eventArtwork {
+  background: radial-gradient(circle at 50% 50%, rgba(244,122,32,.16), rgba(237,241,242,.45) 48%, transparent 72%);
+}
+
+.eventGold .eventArtwork {
+  background: radial-gradient(circle at 50% 50%, rgba(201,148,46,.15), rgba(237,241,242,.45) 48%, transparent 72%);
+}
+
+.eventRing { border-color: rgba(51,70,84,.22); }
+.ringTwo { border-color: rgba(244,122,32,.5); }
+.ringThree { border-color: rgba(201,148,46,.5); }
+
+.eventContent p,
+.upcomingBody p { color: #64717a; }
+.eventMeta { color: #45545e; border-top-color: #e2e7e9; }
+.textLink { color: var(--orange-deep); font-weight: 650; }
+
+.upcomingCard {
+  background: #e8edef;
+  border-color: #d2dadd;
+}
+
+.plus {
+  border-color: #cbd4d8;
+  background: #fff;
+}
+
+/* Lighter grids and data-heavy sections */
+.serviceGrid,
+.whyGrid,
+.programmeList,
+.facultyGrid {
+  border-color: var(--line-light);
+}
+
+.serviceCard,
+.whyLead,
+.whyItem,
+.programmeRow,
+.facultyGrid span,
+.eventRow {
+  border-color: var(--line-light);
+}
+
+/* Contact remains a premium closing band without reverting to pure black */
+.contactSection,
+.eventCaseStudyCta {
+  background: #263946;
+}
+
+.contactSection p,
+.eventCaseStudyCta p:not(.eventKicker) { color: #c7d0d5; }
+
+.contactBox {
+  background: var(--slate);
+}
+
+/* Event detail pages: dark hero, light scientific content */
+.detailDark {
+  background: #263946;
+}
+
+.highlightGrid {
+  border-color: rgba(255,255,255,.14);
+}
+
+.highlightItem {
+  border-color: rgba(255,255,255,.14);
+}
+
+.detailFooter,
+.subFooter,
+footer {
+  background: #101820;
+  color: #aeb8be;
+}
+
+.subFooter span { color: #909da5; }
+.subFooterLinks { color: #c3cbd0; }
+
+/* Forms */
+.contentCard input,
+.contentCard select,
+.contentCard textarea {
+  border-color: #ccd5d9;
+  background: #fff;
+}
+
+.contentCard input:focus,
+.contentCard select:focus,
+.contentCard textarea:focus {
+  outline: 2px solid rgba(244,122,32,.22);
+  border-color: var(--orange);
+}
