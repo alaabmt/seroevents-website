@@ -250,3 +250,28 @@ footer {
   outline: 2px solid rgba(244,122,32,.22);
   border-color: var(--orange);
 }
+
+/* Tighter homepage rhythm */
+main > .section {
+  padding-top: 78px;
+  padding-bottom: 78px;
+}
+
+main > .section .sectionLabel {
+  margin-bottom: 20px;
+}
+
+main > .section .sectionHeadingRow {
+  margin-bottom: 36px;
+}
+
+main > .section .pillRow {
+  margin-top: 34px;
+}
+
+@media (max-width: 760px) {
+  main > .section {
+    padding-top: 58px;
+    padding-bottom: 58px;
+  }
+}
