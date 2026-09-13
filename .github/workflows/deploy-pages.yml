@@ -29,9 +29,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Prepare social preview image
-        run: base64 -d public/sero-share-card.jpg.b64 > public/sero-share-card.jpg
-
       - name: Build static site
         run: npm run build
 
