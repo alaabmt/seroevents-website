@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import './site-pages.css';
+import './institutional-theme.css';
 
 export const metadata: Metadata = {
   title: 'Seroevents | Scientific Events & Healthcare Engagement UAE',
