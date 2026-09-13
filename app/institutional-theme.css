@@ -21,7 +21,6 @@ body,
   color: var(--ink);
 }
 
-/* Corporate navigation: dark, institutional and restrained */
 .siteHeader,
 .subHeader,
 .detailHeader {
@@ -45,7 +44,6 @@ body,
   color: #101820;
 }
 
-/* Keep the first impression premium, but shift from pure black to deep blue-grey */
 .hero,
 .pageHero,
 .eventHero {
@@ -74,7 +72,6 @@ body,
   background: radial-gradient(circle, rgba(74,100,116,.16), rgba(74,100,116,0) 70%);
 }
 
-/* Make the content experience predominantly light and scientific */
 .section,
 .contentSection,
 .eventDetailSection,
@@ -116,7 +113,6 @@ body,
 
 .contentCard.dark p { color: #d5dde1; }
 
-/* Orange remains an accent, not a large surface */
 .eyebrow,
 .pageEyebrow,
 .sectionLabel,
@@ -135,7 +131,6 @@ body,
   color: #101820;
 }
 
-/* Homepage event portfolio becomes lighter and more institutional */
 .eventsSection {
   background: var(--slate-soft);
   color: var(--ink);
@@ -178,12 +173,36 @@ body,
   border-color: #d2dadd;
 }
 
+.upcomingArtwork {
+  width: 100%;
+  display: block;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #fff;
+  border-bottom: 1px solid #d9e0e3;
+}
+
+.upcomingFeature {
+  max-width: 1120px;
+  margin: 0 auto 34px;
+  border: 1px solid var(--line-light);
+  border-radius: 22px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 12px 34px rgba(16,24,32,.05);
+}
+
+.upcomingFeatureImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .plus {
   border-color: #cbd4d8;
   background: #fff;
 }
 
-/* Lighter grids and data-heavy sections */
 .serviceGrid,
 .whyGrid,
 .programmeList,
@@ -200,7 +219,6 @@ body,
   border-color: var(--line-light);
 }
 
-/* Contact remains a premium closing band without reverting to pure black */
 .contactSection,
 .eventCaseStudyCta {
   background: #263946;
@@ -213,7 +231,6 @@ body,
   background: var(--slate);
 }
 
-/* Event detail pages: dark hero, light scientific content */
 .detailDark {
   background: #263946;
 }
@@ -236,7 +253,6 @@ footer {
 .subFooter span { color: #909da5; }
 .subFooterLinks { color: #c3cbd0; }
 
-/* Forms */
 .contentCard input,
 .contentCard select,
 .contentCard textarea {
@@ -251,7 +267,6 @@ footer {
   border-color: var(--orange);
 }
 
-/* Tighter homepage rhythm */
 main > .section {
   padding-top: 78px;
   padding-bottom: 78px;
@@ -298,5 +313,10 @@ main > .section .pillRow {
 
   main > .servicesSection .serviceNumber {
     display: block;
+  }
+
+  .upcomingFeature {
+    margin-bottom: 24px;
+    border-radius: 16px;
   }
 }
