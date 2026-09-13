@@ -3,16 +3,19 @@ import './globals.css';
 import './site-pages.css';
 
 export const metadata: Metadata = {
-  title: 'SeroEvents | Healthcare & Scientific Event Management',
+  title: 'Seroevents | Scientific Events & Healthcare Engagement UAE',
   description:
-    'SeroEvents delivers professional healthcare, scientific, educational and corporate conferences and events across the UAE and beyond.',
+    'Seroevents develops and delivers medical conferences, scientific forums, expert meetings and professional healthcare education in the UAE.',
   keywords: [
-    'SeroEvents',
-    'conference management UAE',
-    'healthcare events',
-    'scientific conferences',
-    'Abu Dhabi events',
-    'Dubai events',
+    'Seroevents',
+    'medical conferences UAE',
+    'scientific events UAE',
+    'healthcare engagement UAE',
+    'medical education UAE',
+    'expert meetings UAE',
+    'scientific forums UAE',
+    'healthcare conferences Abu Dhabi',
+    'medical events Dubai',
   ],
 };
 
