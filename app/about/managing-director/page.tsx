@@ -47,24 +47,68 @@ export default function ManagingDirectorPage() {
       <section className="contentSection">
         <div className="contentGrid">
           <div className="contentCard dark">
-            <p className="pageEyebrow">Managing Director</p>
-            <h2>Healthcare leadership shaped by more than two decades of operational experience.</h2>
+            <p className="pageEyebrow">Leadership Built on Healthcare Experience</p>
+            <h2>More than two decades of healthcare-sector experience shaping the way Seroevents operates.</h2>
             <p>
-              Mr. Abdel Karim Ajam serves as Managing Director of Seroevents, leading the company’s
-              development as a specialized scientific events and healthcare engagement platform in the UAE.
+              Mr. Abdel Karim Ajam leads Seroevents with more than two decades of professional experience within
+              the UAE healthcare sector. His background across major healthcare institutions in Abu Dhabi has
+              developed a strong understanding of healthcare organisations, professional stakeholders,
+              multidisciplinary teams and the standards required to deliver complex initiatives successfully.
             </p>
           </div>
 
           <div className="contentCard">
-            <h2>Professional background</h2>
+            <h2>Leadership Approach</h2>
             <p>
-              His career includes senior responsibilities in healthcare human resources, talent acquisition,
-              manpower planning and project management within major Abu Dhabi healthcare institutions.
+              At Seroevents, this experience shapes a disciplined approach to scientific event management —
+              bringing together credible scientific expertise, thoughtful programme development, effective
+              stakeholder coordination and professional execution.
             </p>
             <p>
-              This operational background supports Seroevents’ focus on structured coordination, stakeholder
-              engagement, professional standards and disciplined delivery.
+              Under his leadership, Seroevents is focused on building trusted scientific platforms where
+              healthcare professionals, experts, institutions and industry stakeholders can exchange knowledge
+              and develop meaningful professional connections.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="contentSection white">
+        <div className="contentGrid">
+          <div className="contentCard">
+            <p className="pageEyebrow">Company Confidence</p>
+            <h3>Healthcare-Sector Understanding</h3>
+            <p>Leadership grounded in more than two decades of experience across the UAE healthcare environment.</p>
+          </div>
+          <div className="contentCard">
+            <p className="pageEyebrow">Company Confidence</p>
+            <h3>Structured Professional Delivery</h3>
+            <p>Disciplined coordination, stakeholder engagement and operational standards across Seroevents programmes.</p>
+          </div>
+          <div className="contentCard">
+            <p className="pageEyebrow">Company Confidence</p>
+            <h3>Scientific Quality Supported by Advisory Input</h3>
+            <p>Selected programmes are supported by independent scientific advisory input to help maintain relevance, educational value and professional standards.</p>
+          </div>
+          <div className="contentCard">
+            <p className="pageEyebrow">Company Confidence</p>
+            <h3>Meaningful Healthcare Engagement</h3>
+            <p>Creating platforms that bring together healthcare professionals, scientific leaders, institutions and industry stakeholders.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="contentSection">
+        <div className="contentGrid">
+          <div className="contentCard dark">
+            <p className="pageEyebrow">At a Glance</p>
+            <h2>20+ Years in the UAE Healthcare Sector</h2>
+            <p>Experience spanning healthcare human resources, talent acquisition, manpower planning and project management.</p>
+          </div>
+          <div className="contentCard">
+            <p className="pageEyebrow">Professional Credentials</p>
+            <h3>PMP & Six Sigma Black Belt</h3>
+            <p>Project Management Professional (PMP) and Certified Six Sigma Black Belt (CSSBB).</p>
           </div>
         </div>
       </section>
@@ -101,28 +145,16 @@ export default function ManagingDirectorPage() {
       </section>
 
       <section className="contentSection white">
-        <div className="contentGrid">
-          <div className="contentCard">
-            <h3>Scientific Engagement</h3>
-            <p>Supporting platforms that bring healthcare professionals, institutions and scientific leaders together.</p>
-          </div>
-          <div className="contentCard">
-            <h3>Professional Standards</h3>
-            <p>Maintaining a premium, credible and healthcare-focused approach across Seroevents activities.</p>
-          </div>
-        </div>
-      </section>
-
-      <section className="contentSection">
         <div className="emptyState">
           <p className="pageEyebrow">Seroevents</p>
-          <h2>Where Scientific Expertise Meets Meaningful Engagement.</h2>
+          <h2>Leadership focused on trust, scientific relevance and professional execution.</h2>
           <p>
             Seroevents develops and delivers medical conferences, scientific forums, expert meetings and
-            professional healthcare education in the UAE.
+            professional healthcare education in the UAE, supported by structured operational leadership and
+            scientific advisory input across selected programmes.
           </p>
           <div className="linkRow">
-            <a className="pillLink orange" href="/seroevents-website/contact/">Contact Seroevents</a>
+            <a className="pillLink orange" href="/seroevents-website/partners/">Partner With Seroevents</a>
             <a className="pillLink" href="/seroevents-website/about/">Back to About</a>
           </div>
         </div>
