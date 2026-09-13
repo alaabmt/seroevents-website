@@ -1,4 +1,5 @@
 import { events } from '../lib/events';
+import { NavigationPane } from './components/SiteNav';
 
 const services = [
   ['Medical Conferences', 'Development and management of professional medical conferences across specialties.'],
@@ -34,10 +35,11 @@ export default function Home() {
           <a href="/seroevents-website/scientific-areas/">Scientific Areas</a>
           <a href="/seroevents-website/partners/">Partnerships</a>
           <a href="/seroevents-website/events/">Events</a>
-          <a href="/seroevents-website/contact/">Contact</a>
         </nav>
         <a className="headerCta" href="/seroevents-website/partners/">Partner With Us</a>
       </header>
+
+      <NavigationPane />
 
       <section className="hero" id="top">
         <div className="heroGlow glowOne" /><div className="heroGlow glowTwo" /><div className="moleculeGrid" aria-hidden="true" />
