@@ -1,3 +1,5 @@
+import { events } from '../lib/events';
+
 const services = [
   {
     title: 'Conference Management',
@@ -22,29 +24,6 @@ const services = [
   {
     title: 'Branding & Event Communications',
     text: 'Event identity, social media assets, programmes, signage and digital communication materials.',
-  },
-];
-
-const events = [
-  {
-    year: '2024',
-    title: 'Innovative Therapy Implementation (ITI) Summit',
-    location: 'Rosewood Hotel, Abu Dhabi',
-    date: '25 May 2024',
-    category: 'Healthcare · Scientific Conference',
-    description:
-      'A multidisciplinary summit focused on innovative therapy access, reimbursement, precision medicine and practical implementation in the UAE healthcare system.',
-    accent: 'eventOrange',
-  },
-  {
-    year: '2024',
-    title: 'FCHS Future Medicine Symposium',
-    location: 'Fatima College of Health Sciences, Abu Dhabi',
-    date: '23 May 2024',
-    category: 'Education · Future Medicine',
-    description:
-      'A scientific symposium covering clinical trials, digital health, pharmacogenomics, regenerative medicine and cellular therapy.',
-    accent: 'eventGold',
   },
 ];
 
@@ -167,9 +146,9 @@ export default function Home() {
         <div className="sectionHeadingRow">
           <div>
             <div className="sectionLabel light">03 · Event Portfolio</div>
-            <h2>Past events. Future-ready platform.</h2>
+            <h2>Selected conferences & scientific events.</h2>
           </div>
-          <p className="lightText">New conferences can be added as reusable event pages as the portfolio grows.</p>
+          <p className="lightText">Each event now has a dedicated case-study page, with the same structure ready for future conferences.</p>
         </div>
         <div className="eventGrid">
           {events.map((event) => (
@@ -190,7 +169,7 @@ export default function Home() {
                   <span>{event.date}</span>
                   <span>{event.location}</span>
                 </div>
-                <span className="textLink">Event case study coming next →</span>
+                <a className="textLink" href={`events/${event.slug}/`}>View event case study →</a>
               </div>
             </article>
           ))}
@@ -202,7 +181,8 @@ export default function Home() {
             <div className="upcomingBody">
               <span className="plus">+</span>
               <h3>Ready for the next conference.</h3>
-              <p>The structure is prepared for future events, registration links, agendas, speakers and sponsors.</p>
+              <p>Future events can be published with registration, agenda, speaker, sponsor and venue information without redesigning the website.</p>
+              <a className="textLink" href="#contact">Discuss your next event →</a>
             </div>
           </article>
         </div>
