@@ -1,4 +1,4 @@
-const menuItems = [
+export const menuItems = [
   ['Home', '/seroevents-website/'],
   ['About', '/seroevents-website/about/'],
   ['Managing Director', '/seroevents-website/about/managing-director/'],
@@ -10,6 +10,17 @@ const menuItems = [
   ['Partnerships', '/seroevents-website/partners/'],
   ['Gallery', '/seroevents-website/gallery/'],
 ];
+
+export function NavigationPane() {
+  return (
+    <aside className="navigationPane" aria-label="Website navigation">
+      <p className="navigationPaneTitle">Navigate</p>
+      <nav>
+        {menuItems.map(([label, href]) => <a href={href} key={href}>{label}</a>)}
+      </nav>
+    </aside>
+  );
+}
 
 export function SiteNav() {
   return (
@@ -33,12 +44,7 @@ export function SiteNav() {
         </nav>
         <a className="subCta" href="/seroevents-website/events/upcoming/">Upcoming Events</a>
       </header>
-      <aside className="navigationPane" aria-label="Website navigation">
-        <p className="navigationPaneTitle">Navigate</p>
-        <nav>
-          {menuItems.map(([label, href]) => <a href={href} key={href}>{label}</a>)}
-        </nav>
-      </aside>
+      <NavigationPane />
     </>
   );
 }
