@@ -1,5 +1,5 @@
 import { events } from '../lib/events';
-import { NavigationPane } from './components/SiteNav';
+import { NavigationMenu } from './components/SiteNav';
 
 const services = [
   ['Medical Conferences', 'Development and management of professional medical conferences across specialties.'],
@@ -28,7 +28,10 @@ export default function Home() {
   return (
     <main>
       <header className="siteHeader">
-        <a className="brandLink" href="/seroevents-website/"><BrandMark /></a>
+        <div className="homeNavLeft">
+          <NavigationMenu />
+          <a className="brandLink" href="/seroevents-website/"><BrandMark /></a>
+        </div>
         <nav className="nav" aria-label="Main navigation">
           <a href="/seroevents-website/about/">About</a>
           <a href="/seroevents-website/services/">Services</a>
@@ -38,8 +41,6 @@ export default function Home() {
         </nav>
         <a className="headerCta" href="/seroevents-website/partners/">Partner With Us</a>
       </header>
-
-      <NavigationPane />
 
       <section className="hero" id="top">
         <div className="heroGlow glowOne" /><div className="heroGlow glowTwo" /><div className="moleculeGrid" aria-hidden="true" />
