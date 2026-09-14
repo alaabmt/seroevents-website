@@ -14,388 +14,87 @@
   --line: rgba(255,255,255,.12);
 }
 
-body,
-.pageShell,
-.eventDetailPage {
-  background: var(--cream);
-  color: var(--ink);
-}
-
-.siteHeader,
-.subHeader,
-.detailHeader {
-  background: rgba(16,24,32,.97);
-  border-bottom-color: rgba(255,255,255,.10);
-}
-
-.nav,
-.subNav,
-.detailBack { color: #d3d9dd; }
-
-.headerCta,
-.subCta {
-  border-color: rgba(244,122,32,.55);
-  color: #ffd5b8;
-}
-
-.headerCta:hover,
-.subCta:hover {
-  background: var(--orange);
-  color: #101820;
-}
-
-.hero,
-.pageHero,
-.eventHero {
-  background: #101820;
-}
-
-.heroLead,
-.pageHero p,
-.eventHeroLead { color: #c2cbd0; }
-
-.heroPanel,
-.eventFacts {
-  background: rgba(255,255,255,.045);
-  border-color: rgba(255,255,255,.15);
-}
-
-.moleculeGrid,
-.eventHeroPattern { opacity: .10; }
-
-.glowOne,
-.eventHero::before {
-  background: radial-gradient(circle, rgba(244,122,32,.14), rgba(244,122,32,0) 68%);
-}
-
-.glowTwo {
-  background: radial-gradient(circle, rgba(74,100,116,.16), rgba(74,100,116,0) 70%);
-}
-
-.section,
-.contentSection,
-.eventDetailSection,
-.whySection {
-  background: var(--cream);
-}
-
-.servicesSection,
-.contentSection.white,
-.facultySection {
-  background: var(--white);
-}
-
-.bodyCopy,
-.sectionHeadingRow p,
-.contentCard p,
-.detailBody,
-.programmeRow p,
-.whyItem p {
-  color: #5f6b73;
-}
-
-.pillRow span,
-.contentCard,
-.emptyState {
-  background: #fff;
-  border-color: var(--line-light);
-}
-
-.contentCard {
-  box-shadow: 0 8px 28px rgba(16,24,32,.035);
-}
-
-.contentCard.dark {
-  background: var(--slate);
-  border-color: var(--slate);
-  color: #fff;
-}
-
-.contentCard.dark p { color: #d5dde1; }
-
-.eyebrow,
-.pageEyebrow,
-.sectionLabel,
-.serviceNumber,
-.whyItem span,
-.programmeRow time,
-.eventKicker,
-.detailSectionLabel,
-.highlightItem span {
-  color: var(--orange-deep);
-}
-
-.buttonPrimary,
-.pillLink.orange {
-  background: var(--orange);
-  color: #101820;
-}
-
-.eventsSection {
-  background: var(--slate-soft);
-  color: var(--ink);
-}
-
-.eventsSection .sectionLabel.light { color: var(--orange-deep); }
-.eventsSection .lightText { color: #65727a !important; }
-
-.eventCard {
-  background: #fff;
-  color: var(--ink);
-  border-color: #d9e0e3;
-  box-shadow: 0 12px 34px rgba(16,24,32,.05);
-}
-
-.eventTopline {
-  color: #68757d;
-  border-bottom-color: #e2e7e9;
-}
-
-.eventArtwork {
-  background: radial-gradient(circle at 50% 50%, rgba(244,122,32,.16), rgba(237,241,242,.45) 48%, transparent 72%);
-}
-
-.eventGold .eventArtwork {
-  background: radial-gradient(circle at 50% 50%, rgba(201,148,46,.15), rgba(237,241,242,.45) 48%, transparent 72%);
-}
-
-.eventRing { border-color: rgba(51,70,84,.22); }
-.ringTwo { border-color: rgba(244,122,32,.5); }
-.ringThree { border-color: rgba(201,148,46,.5); }
-
-.eventContent p,
-.upcomingBody p { color: #64717a; }
-.eventMeta { color: #45545e; border-top-color: #e2e7e9; }
-.textLink { color: var(--orange-deep); font-weight: 650; }
-
-.upcomingCard {
-  background: #e8edef;
-  border-color: #d2dadd;
-}
-
-.upcomingArtwork {
-  width: 100%;
-  display: block;
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-  background: #fff;
-  border-bottom: 1px solid #d9e0e3;
-}
-
-.upcomingFeature {
-  max-width: 1120px;
-  margin: 0 auto 34px;
-  border: 1px solid var(--line-light);
-  border-radius: 22px;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0 12px 34px rgba(16,24,32,.05);
-}
-
-.upcomingFeatureImage {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.plus {
-  border-color: #cbd4d8;
-  background: #fff;
-}
-
-.serviceGrid,
-.whyGrid,
-.programmeList,
-.facultyGrid {
-  border-color: var(--line-light);
-}
-
-.serviceCard,
-.whyLead,
-.whyItem,
-.programmeRow,
-.facultyGrid span,
-.eventRow {
-  border-color: var(--line-light);
-}
-
-.contactSection,
-.eventCaseStudyCta {
-  background: #263946;
-}
-
-.contactSection p,
-.eventCaseStudyCta p:not(.eventKicker) { color: #c7d0d5; }
-
-.contactBox {
-  background: var(--slate);
-}
-
-.detailDark {
-  background: #263946;
-}
-
-.highlightGrid {
-  border-color: rgba(255,255,255,.14);
-}
-
-.highlightItem {
-  border-color: rgba(255,255,255,.14);
-}
-
-.detailFooter,
-.subFooter,
-footer {
-  background: #101820;
-  color: #aeb8be;
-}
-
-.subFooter span { color: #909da5; }
-.subFooterLinks { color: #c3cbd0; }
-
-.contentCard input,
-.contentCard select,
-.contentCard textarea {
-  border-color: #ccd5d9;
-  background: #fff;
-}
-
-.contentCard input:focus,
-.contentCard select:focus,
-.contentCard textarea:focus {
-  outline: 2px solid rgba(244,122,32,.22);
-  border-color: var(--orange);
-}
-
-main > .section {
-  padding-top: 78px;
-  padding-bottom: 78px;
-}
-
-main > .section .sectionLabel {
-  margin-bottom: 20px;
-}
-
-main > .section .sectionHeadingRow {
-  margin-bottom: 36px;
-}
-
-main > .section .pillRow {
-  margin-top: 34px;
-}
-
-/* About page values: more compact and higher contrast */
-.valuesDynamicGrid {
-  gap: 12px;
-}
-
-.valueDynamicCard {
-  min-height: 190px;
-  padding: 20px;
-}
-
-.valueDynamicCard h3 {
-  margin: 32px 0 8px;
-}
-
-.valuesHeadline {
-  margin-bottom: 28px;
-}
-
-.contentSection.valuesInAction {
-  background: #263642;
-  color: #ffffff;
-  padding-top: 62px;
-  padding-bottom: 62px;
-}
-
-.valuesInAction .pageEyebrow {
-  color: #ff9b54;
-}
-
-.valuesInAction .valuesActionIntro h2,
-.valuesInAction .actionStep h3 {
-  color: #ffffff;
-}
-
-.valuesInAction .valuesActionIntro > p:last-child,
-.valuesInAction .actionStep p {
-  color: #dce3e7;
-}
-
-.valuesInAction .actionStep {
-  padding-top: 17px;
-  padding-bottom: 17px;
-  border-color: rgba(255,255,255,.20);
-}
-
-@media (max-width: 760px) {
-  main > .section {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-
-  main > .servicesSection .sectionHeadingRow {
-    gap: 18px;
-    margin-bottom: 24px;
-  }
-
-  main > .servicesSection .serviceCard {
-    min-height: 0;
-    padding: 20px 16px;
-    display: block;
-  }
-
-  main > .servicesSection .serviceCard h3 {
-    margin: 18px 0 7px;
-    font-size: 1.12rem;
-    line-height: 1.15;
-  }
-
-  main > .servicesSection .serviceCard p {
-    line-height: 1.45;
-  }
-
-  main > .servicesSection .serviceNumber {
-    display: block;
-  }
-
-  .upcomingFeature {
-    margin-bottom: 24px;
-    border-radius: 16px;
-  }
-
-  .valueDynamicCard {
-    min-height: 0;
-    padding: 17px 18px;
-  }
-
-  .valueDynamicCard h3 {
-    margin: 20px 0 6px;
-  }
-
-  .valueDynamicCard p {
-    line-height: 1.45;
-  }
-
-  .contentSection.valuesInAction {
-    padding-top: 42px;
-    padding-bottom: 42px;
-  }
-
-  .valuesInAction .valuesActionIntro h2 {
-    font-size: 2.05rem;
-    margin-bottom: 12px;
-  }
-
-  .valuesInAction .actionStep {
-    grid-template-columns: 50px 1fr;
-    gap: 13px;
-    padding: 14px 0;
-  }
-
-  .valuesInAction .actionStep > span {
-    width: 40px;
-    height: 40px;
-  }
+body,.pageShell,.eventDetailPage{background:var(--cream);color:var(--ink)}
+.siteHeader,.subHeader,.detailHeader{background:rgba(16,24,32,.97);border-bottom-color:rgba(255,255,255,.10)}
+.nav,.subNav,.detailBack{color:#d3d9dd}
+.headerCta,.subCta{border-color:rgba(244,122,32,.55);color:#ffd5b8}
+.headerCta:hover,.subCta:hover{background:var(--orange);color:#101820}
+.hero,.pageHero,.eventHero{background:#101820}
+.heroLead,.pageHero p,.eventHeroLead{color:#c2cbd0}
+.heroPanel,.eventFacts{background:rgba(255,255,255,.045);border-color:rgba(255,255,255,.15)}
+.moleculeGrid,.eventHeroPattern{opacity:.10}
+.glowOne,.eventHero::before{background:radial-gradient(circle,rgba(244,122,32,.14),rgba(244,122,32,0) 68%)}
+.glowTwo{background:radial-gradient(circle,rgba(74,100,116,.16),rgba(74,100,116,0) 70%)}
+.section,.contentSection,.eventDetailSection,.whySection{background:var(--cream)}
+.servicesSection,.contentSection.white,.facultySection{background:var(--white)}
+.bodyCopy,.sectionHeadingRow p,.contentCard p,.detailBody,.programmeRow p,.whyItem p{color:#5f6b73}
+.pillRow span,.contentCard,.emptyState{background:#fff;border-color:var(--line-light)}
+.contentCard{box-shadow:0 8px 28px rgba(16,24,32,.035)}
+.contentCard.dark{background:var(--slate);border-color:var(--slate);color:#fff}
+.contentCard.dark p{color:#d5dde1}
+.eyebrow,.pageEyebrow,.sectionLabel,.serviceNumber,.whyItem span,.programmeRow time,.eventKicker,.detailSectionLabel,.highlightItem span{color:var(--orange-deep)}
+.buttonPrimary,.pillLink.orange{background:var(--orange);color:#101820}
+.eventsSection{background:var(--slate-soft);color:var(--ink)}
+.eventsSection .sectionLabel.light{color:var(--orange-deep)}
+.eventsSection .lightText{color:#65727a!important}
+.eventCard{background:#fff;color:var(--ink);border-color:#d9e0e3;box-shadow:0 12px 34px rgba(16,24,32,.05)}
+.eventTopline{color:#68757d;border-bottom-color:#e2e7e9}
+.eventArtwork{background:radial-gradient(circle at 50% 50%,rgba(244,122,32,.16),rgba(237,241,242,.45) 48%,transparent 72%)}
+.eventGold .eventArtwork{background:radial-gradient(circle at 50% 50%,rgba(201,148,46,.15),rgba(237,241,242,.45) 48%,transparent 72%)}
+.eventRing{border-color:rgba(51,70,84,.22)}.ringTwo{border-color:rgba(244,122,32,.5)}.ringThree{border-color:rgba(201,148,46,.5)}
+.eventContent p,.upcomingBody p{color:#64717a}.eventMeta{color:#45545e;border-top-color:#e2e7e9}.textLink{color:var(--orange-deep);font-weight:650}
+.upcomingCard{background:#e8edef;border-color:#d2dadd}
+.upcomingArtwork{width:100%;display:block;aspect-ratio:3/2;object-fit:cover;background:#fff;border-bottom:1px solid #d9e0e3}
+.upcomingFeature{max-width:1120px;margin:0 auto 24px;border:1px solid var(--line-light);border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 12px 34px rgba(16,24,32,.05)}
+.upcomingFeatureImage{width:100%;height:auto;display:block}.plus{border-color:#cbd4d8;background:#fff}
+.serviceGrid,.whyGrid,.programmeList,.facultyGrid{border-color:var(--line-light)}
+.serviceCard,.whyLead,.whyItem,.programmeRow,.facultyGrid span,.eventRow{border-color:var(--line-light)}
+.contactSection,.eventCaseStudyCta{background:#263946}.contactSection p,.eventCaseStudyCta p:not(.eventKicker){color:#c7d0d5}.contactBox{background:var(--slate)}
+.detailDark{background:#263946}.highlightGrid,.highlightItem{border-color:rgba(255,255,255,.14)}
+.detailFooter,.subFooter,footer{background:#101820;color:#aeb8be}.subFooter span{color:#909da5}.subFooterLinks{color:#c3cbd0}
+.contentCard input,.contentCard select,.contentCard textarea{border-color:#ccd5d9;background:#fff}.contentCard input:focus,.contentCard select:focus,.contentCard textarea:focus{outline:2px solid rgba(244,122,32,.22);border-color:var(--orange)}
+
+/* Compact homepage rhythm */
+main > .section{padding-top:58px;padding-bottom:58px}
+main > .section .sectionLabel{margin-bottom:14px}
+main > .section .sectionHeadingRow{margin-bottom:26px}
+main > .section .pillRow{margin-top:22px}
+main > .section .split{gap:5vw}
+main > .section .bodyCopy{gap:10px;line-height:1.62}
+main > .servicesSection .serviceCard{min-height:205px;padding:22px}
+main > .whySection .whyLead,main > .whySection .whyItem{min-height:220px;padding:22px}
+main > .whySection .whyItem h3{margin-top:48px}
+main > .eventsSection .eventCard{min-height:500px}
+main > .eventsSection .eventArtwork{min-height:175px}
+main > .eventsSection .eventContent{padding:20px}
+main > .eventsSection .upcomingBody{padding:22px}
+main > .eventsSection .plus{margin-bottom:20px}
+main > .contactSection{padding-top:58px;padding-bottom:58px}
+
+/* About page values */
+.valuesDynamicGrid{gap:12px}.valueDynamicCard{min-height:190px;padding:20px}.valueDynamicCard h3{margin:32px 0 8px}.valuesHeadline{margin-bottom:28px}
+.contentSection.valuesInAction{background:#263642;color:#fff;padding-top:62px;padding-bottom:62px}.valuesInAction .pageEyebrow{color:#ff9b54}.valuesInAction .valuesActionIntro h2,.valuesInAction .actionStep h3{color:#fff}.valuesInAction .valuesActionIntro>p:last-child,.valuesInAction .actionStep p{color:#dce3e7}.valuesInAction .actionStep{padding-top:17px;padding-bottom:17px;border-color:rgba(255,255,255,.20)}
+
+@media(max-width:760px){
+ main > .section{padding-top:34px;padding-bottom:34px}
+ main > .section .sectionLabel{margin-bottom:11px}
+ main > .section .sectionHeadingRow{gap:12px;margin-bottom:18px}
+ main > .section .pillRow{margin-top:16px;gap:7px}
+ main > .section .pillRow span{padding:9px 12px}
+ main > .section .split{gap:18px}
+ main > .section .bodyCopy{gap:8px;line-height:1.55}
+ main > .servicesSection .serviceCard{min-height:0;padding:16px 15px;display:block}
+ main > .servicesSection .serviceCard h3{margin:12px 0 6px;font-size:1.12rem;line-height:1.15}
+ main > .servicesSection .serviceCard p{line-height:1.4}
+ main > .servicesSection .serviceNumber{display:block}
+ main > .whySection .whyLead,main > .whySection .whyItem{min-height:0;padding:17px}
+ main > .whySection .whyItem h3{margin:20px 0 7px}
+ main > .eventsSection .eventCard{min-height:0}
+ main > .eventsSection .eventArtwork{min-height:140px}
+ main > .eventsSection .eventContent,main > .eventsSection .upcomingBody{padding:17px}
+ main > .eventsSection .plus{margin-bottom:14px}
+ main > .contactSection{padding-top:38px;padding-bottom:38px}
+ .upcomingFeature{margin-bottom:18px;border-radius:16px}
+ .valueDynamicCard{min-height:0;padding:17px 18px}.valueDynamicCard h3{margin:20px 0 6px}.valueDynamicCard p{line-height:1.45}
+ .contentSection.valuesInAction{padding-top:42px;padding-bottom:42px}.valuesInAction .valuesActionIntro h2{font-size:2.05rem;margin-bottom:12px}.valuesInAction .actionStep{grid-template-columns:50px 1fr;gap:13px;padding:14px 0}.valuesInAction .actionStep>span{width:40px;height:40px}
 }
