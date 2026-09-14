@@ -3,9 +3,9 @@ import { SiteFooter, SiteNav } from '../../components/SiteNav';
 import styles from './page.module.css';
 
 const canonicalUrl = 'https://alaabmt.github.io/seroevents-website/events/abu-dhabi-healthcare-revenue-cycle-summit-2027/';
-const imageUrl = 'https://alaabmt.github.io/seroevents-website/RCM%20Flayer.png';
-const seoTitle = 'Abu Dhabi Healthcare Revenue Cycle Summit 2027 | UAE RCM Conference';
-const seoDescription = 'Join the Abu Dhabi Healthcare Revenue Cycle Summit 2027 on 7–8 May in Abu Dhabi. A UAE RCM conference covering reimbursement, CDI, case mix, payment integrity, clinical costing, data and AI.';
+const imageUrl = 'https://alaabmt.github.io/seroevents-website/abu-dhabi-healthcare-revenue-cycle-summit-2027.png';
+const seoTitle = 'Abu Dhabi Healthcare Revenue Cycle Summit 2027 | UAE RCM';
+const seoDescription = 'Join the Abu Dhabi Healthcare Revenue Cycle Summit 2027, 7–8 May. UAE RCM leaders explore reimbursement, CDI, case mix, payment integrity, costing, data and AI.';
 
 export const metadata: Metadata = {
   title: seoTitle,
@@ -158,7 +158,7 @@ export default function RevenueCycleSummitPage() {
       <SiteNav />
 
       <section className={styles.hero}>
-        <img className={styles.heroImage} src="/seroevents-website/RCM%20Flayer.png" alt="Abu Dhabi Healthcare Revenue Cycle Summit 2027 — 7–8 May 2027, Abu Dhabi, UAE" width="1536" height="864" fetchPriority="high" />
+        <img className={styles.heroImage} src="/seroevents-website/abu-dhabi-healthcare-revenue-cycle-summit-2027.png" alt="Abu Dhabi Healthcare Revenue Cycle Summit 2027 — 7–8 May 2027, Abu Dhabi, UAE" width="1536" height="864" fetchPriority="high" />
         <div className={styles.heroActionBar}>
           <div className={styles.heroIdentity}>
             <p className={styles.heroDate}>7–8 May 2027 · Abu Dhabi, UAE</p>
