@@ -284,6 +284,51 @@ main > .section .pillRow {
   margin-top: 34px;
 }
 
+/* About page values: more compact and higher contrast */
+.valuesDynamicGrid {
+  gap: 12px;
+}
+
+.valueDynamicCard {
+  min-height: 190px;
+  padding: 20px;
+}
+
+.valueDynamicCard h3 {
+  margin: 32px 0 8px;
+}
+
+.valuesHeadline {
+  margin-bottom: 28px;
+}
+
+.contentSection.valuesInAction {
+  background: #263642;
+  color: #ffffff;
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.valuesInAction .pageEyebrow {
+  color: #ff9b54;
+}
+
+.valuesInAction .valuesActionIntro h2,
+.valuesInAction .actionStep h3 {
+  color: #ffffff;
+}
+
+.valuesInAction .valuesActionIntro > p:last-child,
+.valuesInAction .actionStep p {
+  color: #dce3e7;
+}
+
+.valuesInAction .actionStep {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-color: rgba(255,255,255,.20);
+}
+
 @media (max-width: 760px) {
   main > .section {
     padding-top: 48px;
@@ -318,5 +363,39 @@ main > .section .pillRow {
   .upcomingFeature {
     margin-bottom: 24px;
     border-radius: 16px;
+  }
+
+  .valueDynamicCard {
+    min-height: 0;
+    padding: 17px 18px;
+  }
+
+  .valueDynamicCard h3 {
+    margin: 20px 0 6px;
+  }
+
+  .valueDynamicCard p {
+    line-height: 1.45;
+  }
+
+  .contentSection.valuesInAction {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+  .valuesInAction .valuesActionIntro h2 {
+    font-size: 2.05rem;
+    margin-bottom: 12px;
+  }
+
+  .valuesInAction .actionStep {
+    grid-template-columns: 50px 1fr;
+    gap: 13px;
+    padding: 14px 0;
+  }
+
+  .valuesInAction .actionStep > span {
+    width: 40px;
+    height: 40px;
   }
 }
