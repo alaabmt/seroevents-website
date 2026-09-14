@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 864" role="img" aria-label="Abu Dhabi healthcare revenue cycle digital skyline">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#061d38"/><stop offset=".58" stop-color="#0b3b69"/><stop offset="1" stop-color="#c47a4f"/></linearGradient>
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0a3158"/><stop offset="1" stop-color="#06182b"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#f4c56a" stop-opacity=".8"/><stop offset="1" stop-color="#f4c56a" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1536" height="864" fill="url(#sky)"/>
+<circle cx="1190" cy="170" r="320" fill="#0c6ba8" opacity=".12"/>
+<rect y="610" width="1536" height="254" fill="url(#water)"/>
+<path d="M0 625 C260 590 410 625 590 605 S980 570 1536 612 V690 H0Z" fill="#08192c"/>
+<g fill="#0d2742" stroke="#2a73a5" stroke-width="2">
+<path d="M540 610V430h80v180M635 610V365h38v245M680 610V410h55v200M748 610V328h44v282M805 610V390h62v220M884 610V454h55v156M952 610V350h47v260M1015 610V425h58v185M1095 610V305h42v305M1150 610V380h67v230M1245 610V445h45v165"/>
+</g>
+<path d="M930 640 C1120 540 1320 545 1536 625" fill="none" stroke="#d9a84f" stroke-width="8"/>
+<path d="M930 654 C1120 570 1320 568 1536 642" fill="none" stroke="#4aa5d8" stroke-width="4" opacity=".85"/>
+<path d="M735 500 C900 455 1010 370 1160 280 S1370 190 1490 115" fill="none" stroke="#7dd8ff" stroke-width="3"/>
+<g fill="#f0c66d"><circle cx="735" cy="500" r="7"/><circle cx="910" cy="438" r="7"/><circle cx="1060" cy="345" r="7"/><circle cx="1210" cy="255" r="7"/><circle cx="1360" cy="175" r="7"/><circle cx="1490" cy="115" r="7"/></g>
+<g stroke="#5bb7e6" stroke-width="2" opacity=".65"><path d="M1110 170l80 55 95-40 90 70 95-25"/><path d="M1190 225l30 105 95-25 60-50"/><path d="M1285 185l30 120"/></g>
+<g fill="#d9a84f"><circle cx="1110" cy="170" r="5"/><circle cx="1190" cy="225" r="5"/><circle cx="1285" cy="185" r="5"/><circle cx="1375" cy="255" r="5"/><circle cx="1470" cy="230" r="5"/></g>
+<g fill="none" stroke="#9bdcff" stroke-width="3" opacity=".7"><path d="M1030 190h70v70h-70z"/><path d="M1045 225h40M1065 205v40"/><path d="M1325 350h90v70h-90z"/><path d="M1340 397l18-25 15 12 25-35"/></g>
+<rect x="70" y="70" width="6" height="180" fill="#d9a84f" opacity=".9"/>
+<circle cx="80" cy="720" r="250" fill="url(#glow)" opacity=".08"/>
+</svg>
