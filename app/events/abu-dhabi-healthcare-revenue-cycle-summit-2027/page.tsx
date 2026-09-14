@@ -4,29 +4,13 @@ import styles from './page.module.css';
 
 const canonicalUrl = 'https://alaabmt.github.io/seroevents-website/events/abu-dhabi-healthcare-revenue-cycle-summit-2027/';
 const imageUrl = 'https://alaabmt.github.io/seroevents-website/RCM%20Flayer.png';
-const seoTitle = 'Abu Dhabi Healthcare Revenue Cycle Summit 2027 | UAE';
-const seoDescription = 'Abu Dhabi Healthcare Revenue Cycle Summit 2027, 7–8 May. UAE leaders explore reimbursement, CDI, payment integrity, clinical costing, data and AI.';
+const seoTitle = 'Abu Dhabi Healthcare Revenue Cycle Summit 2027 | UAE RCM Conference';
+const seoDescription = 'Join the Abu Dhabi Healthcare Revenue Cycle Summit 2027 on 7–8 May in Abu Dhabi. A UAE RCM conference covering reimbursement, CDI, case mix, payment integrity, clinical costing, data and AI.';
 
 export const metadata: Metadata = {
   title: seoTitle,
   description: seoDescription,
-  keywords: [
-    'Abu Dhabi Healthcare Revenue Cycle Summit 2027',
-    'healthcare revenue cycle UAE',
-    'revenue cycle management Abu Dhabi',
-    'RCM conference UAE',
-    'healthcare reimbursement UAE',
-    'case mix integrity UAE',
-    'clinical documentation improvement UAE',
-    'CDI UAE',
-    'payment integrity UAE',
-    'clinical costing UAE',
-    'healthcare finance conference Abu Dhabi',
-    'healthcare AI UAE',
-  ],
-  alternates: {
-    canonical: canonicalUrl,
-  },
+  alternates: { canonical: canonicalUrl },
   authors: [{ name: 'Seroevents', url: 'https://alaabmt.github.io/seroevents-website/' }],
   creator: 'Seroevents',
   publisher: 'Seroevents',
@@ -49,14 +33,12 @@ export const metadata: Metadata = {
     siteName: 'Seroevents',
     locale: 'en_AE',
     type: 'website',
-    images: [
-      {
-        url: imageUrl,
-        width: 1536,
-        height: 864,
-        alt: 'Abu Dhabi Healthcare Revenue Cycle Summit 2027 — 7–8 May 2027, Abu Dhabi, UAE',
-      },
-    ],
+    images: [{
+      url: imageUrl,
+      width: 1536,
+      height: 864,
+      alt: 'Abu Dhabi Healthcare Revenue Cycle Summit 2027 — 7–8 May 2027, Abu Dhabi, UAE',
+    }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -71,13 +53,14 @@ const eventJsonLd = {
   '@type': 'Event',
   '@id': `${canonicalUrl}#event`,
   name: 'Abu Dhabi Healthcare Revenue Cycle Summit 2027',
-  description: 'A focused UAE healthcare leadership and scientific summit exploring reimbursement transformation, case-mix integrity, CDI, payment integrity, clinical costing, data, interoperability, AI and automation in healthcare revenue cycle.',
+  description: 'A UAE healthcare revenue cycle conference for healthcare leaders covering reimbursement transformation, case-mix integrity, clinical documentation improvement, payment integrity, clinical costing, payer-provider collaboration, data, interoperability, AI and automation.',
   url: canonicalUrl,
   image: [imageUrl],
   startDate: '2027-05-07',
   endDate: '2027-05-08',
   eventStatus: 'https://schema.org/EventScheduled',
   eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+  inLanguage: 'en',
   location: {
     '@type': 'Place',
     name: 'Abu Dhabi',
@@ -95,7 +78,7 @@ const eventJsonLd = {
   },
   audience: {
     '@type': 'Audience',
-    audienceType: 'Healthcare executives, finance leaders, revenue cycle leaders, payers, insurers, TPAs, HIM, coding, CDI, clinical, digital health, data, AI and market access professionals',
+    audienceType: 'Healthcare executives, CFOs, finance leaders, revenue cycle leaders, payers, insurers, TPAs, HIM, coding, CDI, clinical, digital health, data, AI and market access professionals',
   },
   about: [
     { '@type': 'Thing', name: 'Healthcare Revenue Cycle Management' },
@@ -113,25 +96,30 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    {
-      '@type': 'ListItem',
-      position: 1,
-      name: 'Seroevents',
-      item: 'https://alaabmt.github.io/seroevents-website/',
-    },
-    {
-      '@type': 'ListItem',
-      position: 2,
-      name: 'Events',
-      item: 'https://alaabmt.github.io/seroevents-website/events/',
-    },
-    {
-      '@type': 'ListItem',
-      position: 3,
-      name: 'Abu Dhabi Healthcare Revenue Cycle Summit 2027',
-      item: canonicalUrl,
-    },
+    { '@type': 'ListItem', position: 1, name: 'Seroevents', item: 'https://alaabmt.github.io/seroevents-website/' },
+    { '@type': 'ListItem', position: 2, name: 'Events', item: 'https://alaabmt.github.io/seroevents-website/events/' },
+    { '@type': 'ListItem', position: 3, name: 'Abu Dhabi Healthcare Revenue Cycle Summit 2027', item: canonicalUrl },
   ],
+};
+
+const faqItems = [
+  ['What is the Abu Dhabi Healthcare Revenue Cycle Summit 2027?', 'It is a focused UAE healthcare leadership and scientific conference dedicated to the future of revenue cycle management, reimbursement, case-mix integrity, CDI, payment integrity, clinical costing, payer-provider collaboration, data and AI.'],
+  ['When and where will the Summit take place?', 'The Summit is scheduled for 7–8 May 2027 in Abu Dhabi, United Arab Emirates. The specific venue will be announced once confirmed.'],
+  ['Who should attend the Summit?', 'The programme is designed for hospital and health-system executives, CFOs and finance leaders, revenue cycle teams, payers and TPAs, HIM, coding and CDI leaders, clinical leaders, digital health and data teams, market access professionals and healthcare technology organisations.'],
+  ['What topics will the UAE RCM conference cover?', 'Core themes include reimbursement transformation, clinical costing and value-based funding, case-mix integrity and CDI, denial prevention and payment integrity, data and interoperability, and AI, automation and workforce transformation.'],
+  ['Is the Summit relevant to payers and insurers?', 'Yes. The scientific architecture includes payer-provider collaboration, claims and payment integrity, reimbursement, data quality and operating-model topics that are directly relevant to insurers and TPAs.'],
+  ['How can I register interest?', 'Use the Register Interest button on this page to contact Seroevents. Formal registration details will be published when registration opens.'],
+  ['How can an organisation participate as a partner?', 'Organisations can contact Seroevents through the Partnership Enquiries link to discuss relevant participation opportunities. Scientific content and commercial arrangements are managed through separate processes.'],
+];
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map(([question, answer]) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: { '@type': 'Answer', text: answer },
+  })),
 };
 
 const themes = [
@@ -166,20 +154,34 @@ export default function RevenueCycleSummitPage() {
     <div className={styles.page}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <SiteNav />
 
       <section className={styles.hero}>
-        <h1 className={styles.srOnly}>Abu Dhabi Healthcare Revenue Cycle Summit 2027</h1>
         <img className={styles.heroImage} src="/seroevents-website/RCM%20Flayer.png" alt="Abu Dhabi Healthcare Revenue Cycle Summit 2027 — 7–8 May 2027, Abu Dhabi, UAE" width="1536" height="864" fetchPriority="high" />
         <div className={styles.heroActionBar}>
-          <div>
-            <strong>7–8 May 2027 · Abu Dhabi, UAE</strong>
+          <div className={styles.heroIdentity}>
+            <p className={styles.heroDate}>7–8 May 2027 · Abu Dhabi, UAE</p>
+            <h1>Abu Dhabi Healthcare Revenue Cycle Summit 2027</h1>
             <span>Shaping the Future of Healthcare Revenue Cycle in the UAE</span>
           </div>
           <div className={styles.heroActions}>
             <a className={styles.primaryButton} href="mailto:info@seroevents.com?subject=RCM%20Summit%202027%20-%20Register%20Interest">Register Interest</a>
             <a className={styles.secondaryButton} href="mailto:info@seroevents.com?subject=RCM%20Summit%202027%20-%20Partnership%20Enquiry">Partnership Enquiries</a>
           </div>
+        </div>
+      </section>
+
+      <section className={styles.aboutSection}>
+        <div className={styles.aboutIntro}>
+          <p className={styles.sectionLabel}>About the summit</p>
+          <h2>A specialist healthcare revenue cycle conference for the UAE.</h2>
+        </div>
+        <div className={styles.aboutCopy}>
+          <p>The Abu Dhabi Healthcare Revenue Cycle Summit 2027 is a focused leadership and scientific platform for professionals working across healthcare revenue cycle management in the UAE. Taking place on 7–8 May 2027 in Abu Dhabi, the Summit will bring together providers, payers, finance leaders, revenue cycle teams, clinical documentation improvement specialists, coding and HIM professionals, digital health leaders and healthcare technology organisations.</p>
+          <p>The programme is being shaped around the issues that increasingly connect clinical quality, reimbursement and financial performance. These include reimbursement transformation, clinical costing, case-mix integrity, CDI and coding quality, denial prevention, payment integrity, payer-provider collaboration, healthcare data, interoperability and AI-enabled revenue cycle workflows. The objective is to create a practical forum where healthcare leaders can examine how these areas affect operational performance, sustainability and the accuracy of the financial representation of care.</p>
+          <p>Rather than treating revenue cycle as a narrow administrative function, the Summit will explore the full clinical-financial pathway: from documentation and coding through claims, reimbursement, payment integrity, analytics and technology-enabled decision-making. This broader perspective is intended to support senior leaders who are responsible for healthcare finance, operations, quality, data and patient access.</p>
+          <p>For organisations searching for an RCM conference in the UAE, a healthcare finance summit in Abu Dhabi, or a specialist forum on reimbursement, CDI, case mix and payment integrity, the Summit is designed to provide a concentrated two-day environment for evidence-led discussion, peer exchange and practical sector dialogue.</p>
         </div>
       </section>
 
@@ -202,9 +204,7 @@ export default function RevenueCycleSummitPage() {
         <div className={styles.themeGrid}>
           {themes.map(([number, title, text]) => (
             <article className={styles.themeCard} key={title}>
-              <span>{number}</span>
-              <h3>{title}</h3>
-              <p>{text}</p>
+              <span>{number}</span><h3>{title}</h3><p>{text}</p>
             </article>
           ))}
         </div>
@@ -215,9 +215,7 @@ export default function RevenueCycleSummitPage() {
           <p className={styles.sectionLabel}>Who should attend</p>
           <h2>A focused audience across the healthcare ecosystem.</h2>
         </div>
-        <div className={styles.audienceGrid}>
-          {audience.map((item) => <div key={item}>{item}</div>)}
-        </div>
+        <div className={styles.audienceGrid}>{audience.map((item) => <div key={item}>{item}</div>)}</div>
       </section>
 
       <section className={styles.programmeSection}>
@@ -228,10 +226,7 @@ export default function RevenueCycleSummitPage() {
         </div>
         <div className={styles.programmeList}>
           {programme.map((item, index) => (
-            <div className={styles.programmeItem} key={item}>
-              <span>{String(index + 1).padStart(2, '0')}</span>
-              <strong>{item}</strong>
-            </div>
+            <div className={styles.programmeItem} key={item}><span>{String(index + 1).padStart(2, '0')}</span><strong>{item}</strong></div>
           ))}
         </div>
       </section>
@@ -247,6 +242,21 @@ export default function RevenueCycleSummitPage() {
         </div>
       </section>
 
+      <section className={styles.faqSection}>
+        <div className={styles.faqIntro}>
+          <p className={styles.sectionLabel}>Frequently asked questions</p>
+          <h2>Planning your participation.</h2>
+        </div>
+        <div className={styles.faqList}>
+          {faqItems.map(([question, answer]) => (
+            <details key={question}>
+              <summary>{question}</summary>
+              <p>{answer}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
       <section className={styles.participationSection}>
         <div>
           <p className={styles.sectionLabel}>Get involved</p>
@@ -257,6 +267,11 @@ export default function RevenueCycleSummitPage() {
           <article><span>02</span><h3>Contribute</h3><p>Share expertise through scientific dialogue, panels and focused discussions.</p><a href="mailto:info@seroevents.com?subject=RCM%20Summit%202027%20-%20Scientific%20Contribution">Scientific enquiries →</a></article>
           <article><span>03</span><h3>Partner</h3><p>Engage with a highly relevant UAE healthcare leadership audience.</p><a href="mailto:info@seroevents.com?subject=RCM%20Summit%202027%20-%20Partnership%20Enquiry">Partnership enquiries →</a></article>
         </div>
+        <nav className={styles.internalLinks} aria-label="Related Seroevents pages">
+          <a href="/seroevents-website/events/">View all Seroevents healthcare events</a>
+          <a href="/seroevents-website/partners/">Explore partnership opportunities</a>
+          <a href="/seroevents-website/scientific-areas/">Explore scientific areas</a>
+        </nav>
       </section>
 
       <section className={styles.finalCta}>
