@@ -1,0 +1,12 @@
+import type { MetadataRoute } from 'next';
+
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+    },
+    sitemap: 'https://alaabmt.github.io/seroevents-website/sitemap.xml',
+    host: 'https://alaabmt.github.io/seroevents-website',
+  };
+}
