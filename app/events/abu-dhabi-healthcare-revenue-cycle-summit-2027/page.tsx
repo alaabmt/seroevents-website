@@ -40,12 +40,13 @@ export default function RevenueCycleSummitPage() {
       <SiteNav />
 
       <section className={styles.hero}>
-        <img className={styles.heroImage} src="/seroevents-website/rcm-summit-2027-hero.svg" alt="Abu Dhabi Healthcare Revenue Cycle Summit 2027" />
-        <div className={styles.heroOverlay} />
-        <div className={styles.heroCopy}>
-          <p className={styles.eyebrow}>7–8 May 2027 · Abu Dhabi, UAE</p>
-          <h1>Abu Dhabi Healthcare Revenue Cycle Summit 2027</h1>
-          <p className={styles.theme}>Shaping the Future of Healthcare Revenue Cycle in the UAE</p>
+        <h1 className={styles.srOnly}>Abu Dhabi Healthcare Revenue Cycle Summit 2027</h1>
+        <img className={styles.heroImage} src="/seroevents-website/RCM%20Flayer.png" alt="Abu Dhabi Healthcare Revenue Cycle Summit 2027 — 7–8 May 2027, Abu Dhabi, UAE" />
+        <div className={styles.heroActionBar}>
+          <div>
+            <strong>7–8 May 2027 · Abu Dhabi, UAE</strong>
+            <span>Shaping the Future of Healthcare Revenue Cycle in the UAE</span>
+          </div>
           <div className={styles.heroActions}>
             <a className={styles.primaryButton} href="mailto:info@seroevents.com?subject=RCM%20Summit%202027%20-%20Register%20Interest">Register Interest</a>
             <a className={styles.secondaryButton} href="mailto:info@seroevents.com?subject=RCM%20Summit%202027%20-%20Partnership%20Enquiry">Partnership Enquiries</a>
