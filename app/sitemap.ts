@@ -1,6 +1,8 @@
 import type { MetadataRoute } from 'next';
 import { events } from '../lib/events';
 
+export const dynamic = 'force-static';
+
 const baseUrl = 'https://alaabmt.github.io/seroevents-website';
 
 export default function sitemap(): MetadataRoute.Sitemap {
