@@ -8,7 +8,7 @@ export function SummitNav() {
       <div className={styles.inner}>
         <a href={`${base}/`}>Overview</a>
         <a href={`${base}/agenda/`}>Programme</a>
-        <span className={styles.comingSoon} aria-label="Speakers, coming soon">Speakers <small>Coming soon</small></span>
+        <a href={`${base}/speakers/`}>Speakers</a>
         <span className={styles.comingSoon} aria-label="Advisory Board, coming soon">Advisory Board <small>Coming soon</small></span>
         <span className={styles.comingSoon} aria-label="Venue and Travel, coming soon">Venue &amp; Travel <small>Coming soon</small></span>
         <a className={styles.register} href="mailto:info@seroevents.com?subject=RCM%20Summit%202027%20-%20Register%20Interest">Register Interest</a>
