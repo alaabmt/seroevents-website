@@ -40,7 +40,7 @@ export default function RevenueCycleSummitPage() {
       <SiteNav />
 
       <section className={styles.hero}>
-        <img className={styles.heroImage} src="/seroevents-website/rcm-summit-2027-hero.jpg" alt="Abu Dhabi Healthcare Revenue Cycle Summit 2027" />
+        <img className={styles.heroImage} src="/seroevents-website/rcm-summit-2027-hero.svg" alt="Abu Dhabi Healthcare Revenue Cycle Summit 2027" />
         <div className={styles.heroOverlay} />
         <div className={styles.heroCopy}>
           <p className={styles.eyebrow}>7–8 May 2027 · Abu Dhabi, UAE</p>
