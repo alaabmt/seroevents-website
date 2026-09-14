@@ -7,7 +7,7 @@ const canonicalUrl = `${base}/speakers/`;
 
 export const metadata: Metadata = {
   title: 'Speakers | Abu Dhabi Healthcare Revenue Cycle Summit 2027',
-  description: 'Meet the healthcare leaders, reimbursement experts, RCM professionals, payers, CDI, coding, finance, data and AI experts contributing to the Abu Dhabi Healthcare Revenue Cycle Summit 2027.',
+  description: 'Speaker and faculty updates for the Abu Dhabi Healthcare Revenue Cycle Summit 2027, covering healthcare leadership, RCM, payers, CDI, coding, finance, data and AI.',
   alternates: { canonical: canonicalUrl },
   openGraph: {
     title: 'Speakers | Abu Dhabi Healthcare Revenue Cycle Summit 2027',
@@ -20,12 +20,12 @@ export const metadata: Metadata = {
 };
 
 const facultyProfiles = [
-  ['Healthcare Leadership', 'Senior executives from hospitals and health systems addressing financial sustainability, operating models and system transformation.'],
-  ['Finance & Revenue Cycle', 'CFOs, finance leaders and revenue cycle executives sharing practical perspectives on performance, integrity and transformation.'],
-  ['Payers & TPAs', 'Insurance and third-party administrator leaders contributing perspectives on reimbursement, claims, payment integrity and payer-provider collaboration.'],
-  ['CDI, Coding & HIM', 'Experts in clinical documentation improvement, coding quality, case-mix integrity and health information management.'],
-  ['Data, Digital & AI', 'Leaders in healthcare analytics, interoperability, automation and AI-enabled revenue cycle workflows.'],
-  ['Market Access & Value', 'Experts exploring sustainable access, value-based funding and the connection between reimbursement and patient access.'],
+  ['Healthcare Leadership', 'Senior hospital and health-system perspectives on financial sustainability, operating models and system transformation.'],
+  ['Finance & Revenue Cycle', 'CFO, finance and revenue cycle perspectives on performance, integrity, reimbursement and transformation.'],
+  ['Payers & TPAs', 'Payer and third-party administrator perspectives on reimbursement, claims, payment integrity and payer-provider collaboration.'],
+  ['CDI, Coding & HIM', 'Expertise in clinical documentation improvement, coding quality, case-mix integrity and health information management.'],
+  ['Data, Digital & AI', 'Perspectives on healthcare analytics, interoperability, automation and AI-enabled revenue cycle workflows.'],
+  ['Market Access & Value', 'Expertise in sustainable access, value-based funding and the relationship between reimbursement and patient access.'],
 ];
 
 export default function SpeakersPage() {
@@ -54,7 +54,7 @@ export default function SpeakersPage() {
         <section className={styles.gridSection}>
           <div className={styles.gridHeader}>
             <p className={styles.label}>Faculty perspectives</p>
-            <h2>Who will contribute to the programme.</h2>
+            <h2>Expertise the programme is designed to bring together.</h2>
           </div>
           <div className={styles.grid}>
             {facultyProfiles.map(([title, text], index) => (
@@ -70,8 +70,8 @@ export default function SpeakersPage() {
         <section className={styles.statusSection}>
           <div>
             <p className={styles.label}>Speaker announcements</p>
-            <h2>Confirmed faculty will appear here.</h2>
-            <p>We are intentionally not publishing unconfirmed names. Speaker profiles, roles and session participation will be added as confirmations are completed.</p>
+            <h2>Confirmed faculty will be announced progressively.</h2>
+            <p>No unconfirmed names are being published. Speaker profiles, roles and session participation will be added after formal confirmation.</p>
           </div>
           <a href="mailto:info@seroevents.com?subject=RCM%20Summit%202027%20-%20Scientific%20Contribution">Scientific contribution enquiry</a>
         </section>
