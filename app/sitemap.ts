@@ -23,6 +23,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/events/abu-dhabi-healthcare-revenue-cycle-summit-2027/speakers/`,
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
     { url: `${baseUrl}/contact/`, changeFrequency: 'yearly', priority: 0.5 },
   ];
 
