@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Registration confirmation and detail: light/dark themes, desktop/mobile.
+Show You are registered, event details, attendee details and confirmation-email status. Clear buttons View invitation and Share attendance. Agenda download remains available. Provide support contact and cancelled-event state. Automatic approval must be clear, with no Pending approval step.
+Reuse the established components. Annotate destinations and major state transitions.

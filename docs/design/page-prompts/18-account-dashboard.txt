@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Account dashboard: light/dark themes, desktop/mobile.
+Create attendee navigation: Overview, My events, Download history, Profile, Sign out. Show next registered event with invitation and sharing actions, recent downloads and Explore events. Empty account state points to upcoming events. No fake attendance achievements or certificates.
+Reuse the established components. Annotate destinations and major state transitions.

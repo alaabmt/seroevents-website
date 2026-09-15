@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Upcoming event detail: light/dark themes, desktop/mobile.
+Create the RCM event detail page with main banner, title, date, city, venue TBC and Register CTA. Navigation tabs: Overview, Programme, Speakers, Photos. Include themes, audience, agenda download, practical information and contact. Guest agenda CTA says Sign in to download; signed-in users get Download agenda even when unregistered. Registered users see View invitation and Share attendance. Include registration closed and cancelled-event states. Use this reusable template for ITI 2027 with TBC facts.
+Maintain the shared navigation and components. Annotate key interactions.

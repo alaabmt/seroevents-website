@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Settings and sharing templates: light/dark themes, desktop/mobile.
+Create settings tabs Brand and contact, Social sharing, Email status. Brand: logo, company name and approved contact addresses. Social: official LinkedIn page URL, hashtags, caption template, card preview and default/event override. Email: display configured leadership/business sender addresses and test-status placeholders, not a mail-server provisioning interface or API-secret fields. Include save success/error. Keep theme choice personal, not a global switch changing every user’s preference.
+Reuse the established components. Annotate destinations and major state transitions.

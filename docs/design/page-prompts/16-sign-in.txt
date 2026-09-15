@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Sign in: light/dark themes, desktop/mobile.
+Design email/password sign in, password visibility, Forgot password and Create account. Include invalid credentials, temporary throttling and session-expired states. Redirect back to requested event or agenda after success. Keep account UI calm and concise.
+Reuse the established components. Annotate destinations and major state transitions.

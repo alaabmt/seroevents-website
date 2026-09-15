@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Events directory: light/dark themes, desktop/mobile.
+Create one event directory with Upcoming and Previous tabs, search, year and subject filters. The upcoming view shows RCM and ITI 2027; the previous view shows the two 2024 events. Cards include banner, status, title, date or TBC, location and View event. Include no-results and loading states. /events/upcoming/ and /events/past/ open these same views, not separate inconsistent designs.
+Maintain the shared navigation and components. Annotate key interactions.

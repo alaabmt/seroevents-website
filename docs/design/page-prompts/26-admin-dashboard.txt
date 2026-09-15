@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Admin dashboard: light/dark themes, desktop/mobile.
+Use a consistent admin sidebar: Overview, Events, Website pages, Media, Agendas, Registrations, Enquiries, Users, Activity, Check-in, Settings. Show actionable counts for published events, confirmed registrations and new enquiries; no fabricated revenue metrics. Recent content and quick Create event action. Use labelled sample data and empty states. Admins enter through the same sign-in page.
+Reuse the established components. Annotate destinations and major state transitions.

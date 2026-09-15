@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Activity report: light/dark themes, desktop/mobile.
+Design exactly five filterable action types: Login, Logout, Event registration, Agenda download, LinkedIn share click. Columns: user, action, event/agenda where relevant, date/time and outcome. Filters by user/action/event/date. Detail drawer can identify agenda version. LinkedIn label says Final share button clicked, never Post published. Do not include page-view tracking or marketing dashboards. Retention duration is not yet decided; do not invent a default.
+Reuse the established components. Annotate destinations and major state transitions.

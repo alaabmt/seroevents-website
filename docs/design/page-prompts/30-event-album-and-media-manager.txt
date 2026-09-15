@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Event album and media manager: light/dark themes, desktop/mobile.
+Design an event banner upload plus one album of event photos, drag-to-reorder, captions, alt text and publish controls. Include image upload progress, invalid type/size, retry, archive confirmation and no-photos state. General media manager uses the same grid with search and public/private indicators. Do not make restricted agenda files publicly accessible through the media browser.
+Reuse the established components. Annotate destinations and major state transitions.

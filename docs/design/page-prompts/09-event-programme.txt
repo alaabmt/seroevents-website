@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Event programme: light/dark themes, desktop/mobile.
+Use the event shell and Programme tab. Show day tabs for the two-day RCM summit and a clean timeline of sessions only as explicitly labelled sample data. Include the real launch state: detailed sessions will be announced. Provide agenda resource/version and a sign-in gate for guests; a signed-in unregistered user can download. Include unavailable agenda state.
+Maintain the shared navigation and components. Annotate key interactions.

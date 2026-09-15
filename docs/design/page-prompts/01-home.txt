@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Home: light/dark themes, desktop/mobile.
+Build an editorial homepage with a strong scientific-engagement headline, short business introduction and Explore events CTA. Feature the RCM 2027 event using a date/venue panel, then two past-event case-study cards. Add concise services, scientific approach and partnership invitation. Keep account/signup secondary to event discovery. Include photographic placeholders labelled for replacement, not fabricated past-event images.
+Maintain the shared navigation and components. Annotate key interactions.

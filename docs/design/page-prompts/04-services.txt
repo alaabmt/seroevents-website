@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Services: light/dark themes, desktop/mobile.
+Present eight services: Medical Conferences, Scientific Forums, Expert Meetings and Roundtables, Medical Education Programmes, Scientific Programme Development, Faculty and Speaker Coordination, Healthcare Partnership Management, End-to-End Event Management. Show clear descriptions and Discuss your event CTA to Contact. Explain these as business services, not existing software features.
+Maintain the shared navigation and components. Annotate key interactions.

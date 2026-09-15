@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Enquiry inbox: light/dark themes, desktop/mobile.
+Design inbox list/detail split with sender, type, event if linked, timestamp, message and New/In progress/Resolved/Closed status. Include assigned team member and email reply link without inventing an in-app outbound conversation system. Search, filters, empty state and status-change feedback.
+Reuse the established components. Annotate destinations and major state transitions.

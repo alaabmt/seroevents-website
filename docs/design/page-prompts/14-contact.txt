@@ -1,0 +1,3 @@
+Use the Seroevents master design system and uploaded logo. Design Contact: light/dark themes, desktop/mobile.
+Create a simple enquiry page with name, email, organisation, optional position and phone, enquiry category and message. Categories: scientific/conference partnership, industry partnership, speaker/faculty, general. Show info@seroevents.com and contact@seroevents.com. Include validation, submitting, success and retry states. Guest enquiries are provisionally allowed; annotate that account gating is undecided.
+Maintain the shared navigation and components. Annotate key interactions.
